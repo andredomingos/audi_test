@@ -1,0 +1,763 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+
+
+.loads {
+ background-image: 
+ url(http://hello.channel4.com/res/chan4/stars.jpg),
+ url(http://hello.channel4.com/res/chan4/cranston.jpg),
+ url(http://hello.channel4.com/res/chan4/cranston_shout.jpg),
+ url(http://hello.channel4.com/res/chan4/paquin.jpg),
+ url(http://hello.channel4.com/res/chan4/buscemi.jpg),
+ url(http://hello.channel4.com/res/chan4/spacesuit.jpg),
+ url(http://hello.channel4.com/res/chan4/embrace.jpg),
+ url(http://hello.channel4.com/res/chan4/burglers.jpg),
+ url(http://hello.channel4.com/res/chan4/terence.jpg),
+ url(http://hello.channel4.com/res/chan4/fire.jpg),
+ url(http://hello.channel4.com/res/chan4/quicker1.jpg),
+ url(http://hello.channel4.com/res/chan4/quicker2.jpg),
+
+}
+ 
+
+
+   .background_ptone {
+      background-image: url('http://hello.channel4.com/res/chan4/cranston.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: cranston;
+      -webkit-animation-delay: 0s;
+      -webkit-animation-fill-mode: both;
+      opacity: 1;
+      }
+      @-webkit-keyframes cranston {
+      0% { background-position: -2000% 0%; }
+      1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/cranston.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+      }
+
+   .background_ptwo { 
+      background-image: url('http://hello.channel4.com/res/chan4/cranston_shout.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: .6s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: cranshout;
+      -webkit-animation-delay: 2s;
+      }
+      @-webkit-keyframes cranshout {
+      0% { background-position: -2000% 0%; }
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/cranston_shout.jpg');}
+      20% { background-position: 50% 0%;}
+      40% { background-position: 100% 0%;}
+      60% { background-position: 0% 50%;}
+      80% { background-position: 50% 50%;}
+      90% { background-position: 100% 100%;}
+      } 
+
+   .background_pthree { 
+      background-image: url('http://hello.channel4.com/res/chan4/paquin.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: paquin;
+      -webkit-animation-delay: 2.4s;
+      }
+      @-webkit-keyframes paquin {
+      0% { background-position: -2000% 0%; }
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/paquin.jpg');}
+      20% { background-position: 50% 0%;}
+      40% { background-position: 100% 0%;}
+      60% { background-position: 0% 50%;}
+      80% { background-position: 50% 50%;}
+      100% { background-position: 100% 100%;}
+    }
+
+    .background_pfour { 
+      background-image: url('http://hello.channel4.com/res/chan4/buscemi.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 2.5s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: buscemi;
+      -webkit-animation-delay: 3.5s;
+      }
+      @-webkit-keyframes buscemi {
+      0% { background-position: -2000% 0%; }
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/buscemi.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+    }
+    .background_pfive { 
+      background-image: url('http://hello.channel4.com/res/chan4/spacesuit.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 2.5s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: spman;
+      -webkit-animation-delay: 6s;
+      }
+      @-webkit-keyframes spman {
+      0% { background-position: -2000% 0%; }
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/spacesuit.jpg');}
+      16% { background-position: 50% 0%;}
+      24% { background-position: 100% 0%;}
+      32% { background-position: 0% 50%;}
+      40% { background-position: 50% 50%;}
+      48% { background-position: 100% 50%;}
+      56% { background-position: 0% 100%;}
+      64% { background-position: 50% 100%;}
+      72% { background-position: 100% 100%;}
+      80% { background-position: 100% 77%;}
+      83% { background-position: 100% 94%;}
+      88% { background-position: 100% 88%;}
+      94% { background-position: 90% 80%; transform: rotate(4deg);}
+      100% { background-position: 100% 77%; transform: rotate(0deg); }
+    }
+    .background_psix { 
+      background-image: url('http://hello.channel4.com/res/chan4/spall.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: spall;
+      -webkit-animation-delay: 8.5s;
+      }
+      @-webkit-keyframes spall {
+      0% { background-position: -2000% 0%; }
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/spall.jpg');}
+      20% { background-position: 50% 0%;}
+      40% { background-position: 100% 0%;}
+      60% { background-position: 0% 50%;}
+      80% { background-position: 50% 50%;}
+      100% { background-position: 100% 50%;}
+    }
+
+
+    .background_psev { 
+     background-image: url('http://hello.channel4.com/res/chan4/embrace.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 2.5s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: embrace;
+      -webkit-animation-delay: 9.2s;
+      }
+      @keyframes embrace {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/embrace.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      80% { background-position: 100% 77%;}
+      83% { background-position: 100% 94%;}
+      88% { background-position: 100% 88%;}
+      94% { background-position: 90% 80%;}
+      100% { background-position: 100% 77%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+ }
+
+
+ .background_peight { 
+      background-image: url('http://hello.channel4.com/res/chan4/black.gif');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: lady;
+      -webkit-animation-delay: 11.6s;
+     }
+      @keyframes lady {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%;  background-image: url('http://hello.channel4.com/res/chan4/black.gif'); }
+      20% { background-position: 50% 0%;}
+      40% { background-position: 100% 0%;}
+      60% { background-position: 0% 50%;}
+      80% { background-position: 50% 50%;}
+      100% { background-position: 100% 50%;}
+      }  
+
+
+
+.background_pnine { 
+      background-image: url('http://hello.channel4.com/res/chan4/burglers.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: room;
+      -webkit-animation-delay: 15.6s;
+     }
+      @keyframes room {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/burglers.jpg');}
+      20% { background-position: 50% 0%;}
+      30% { background-position: 100% 0%;}
+      40% { background-position: 0% 50%;}
+      50% { background-position: 50% 50%;}
+      52% { background-position: 100% 77%;}
+      54% { background-position: 100% 94%;}
+      56% { background-position: 100% 88%;}
+      58% { background-position: 90% 80%;}
+      59% { background-position: 100% 77%;}
+      60% { background-position: 88% 86%;}
+      70% { background-position: 0% 100%;}
+      80% { background-position: 50% 100%;}
+      90% { background-position: 100% 100%;}
+      }    
+
+
+ .background_pten{ 
+     background-image: url('http://hello.channel4.com/res/chan4/terence.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 2.2s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: terence;
+ 
+      -webkit-animation-delay: 16.6s;
+      }
+      @keyframes terence {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/terence.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+ }
+
+
+
+ .background_pelev{ 
+     background-image: url('http://hello.channel4.com/res/chan4/fire.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1.8s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: fire;
+ 
+      -webkit-animation-delay: 19.1s;
+      }
+      @keyframes fire {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/fire.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+ }
+
+
+ .background_ptwe{ 
+     background-image: url('http://hello.channel4.com/res/chan4/quicker1.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1.8s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: arms;
+      -webkit-animation-delay: 21.1s;
+      }
+      @keyframes arms {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/quicker1.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+ }
+
+
+
+ .background_pthir{ 
+     background-image: url('http://hello.channel4.com/res/chan4/quicker2.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 1.8s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: drama;
+ 
+      -webkit-animation-delay: 22.7s;
+      }
+      @keyframes drama {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/quicker2.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      99% { background-position: 100% 100%;}
+      100% { background-image: url('http://hello.channel4.com/res/chan4/black.gif');}
+ }
+
+
+.background_pfourteen{ 
+      background-image: url('http://hello.channel4.com/res/chan4/stars.jpg');
+      width: 640px;
+      height: 360px;
+      background-size: 300% 400%;
+      background-repeat: no-repeat;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: steps(1), linear;
+      -webkit-animation-direction: forwards;
+      -webkit-animation-name: stars;
+      -webkit-animation-delay: 25.2s;
+      }
+      @keyframes stars {
+      0% { background-position: -2000% 0%;}
+      0.1% { background-position: 0% 0%; background-image: url('http://hello.channel4.com/res/chan4/stars.jpg');}
+      9% { background-position: 50% 0%;}
+      18% { background-position: 100% 0%;}
+      27% { background-position: 0% 33.333%;}
+      36% { background-position: 50% 33.333%;}
+      45% { background-position: 100% 33.333%;}
+      54% { background-position: 0% 66.666%;}
+      63% { background-position: 50% 66.666%;}
+      72% { background-position: 100% 66.666%;}
+      81% { background-position: 0% 100%;}
+      90% { background-position: 50% 100%;}
+      100% { background-position: 100% 100%;}
+ }
+
+
+}
+
+
+
+
+
+
+
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+      .ten {
+      animation: ten 2s 0s steps(2, end); opacity: 0; animation-iteration-count: 1; animation-delay: 2s; height: 0px !important; transform: translateY(-200px); text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+      }
+      @keyframes ten {
+      0% {
+      top: 0; opacity: 1; height: 60px !important; transform: translateY(-0px);
+      }
+      10% {
+      top: -60px; opacity: 1; 
+      }
+      12% {
+      top: -60px; opacity: 1;
+      }
+      20% {
+      top: -120px; opacity: 1;
+      }
+      30% {
+      top: -0px; opacity: 1;
+      }
+      100% {
+      top: 0; opacity: 1;  height: 60px !important; transform: translateY(-0px);
+      }
+      }
+      .unique {
+      animation: unique 2s 0s steps(2, end); animation-iteration-count: 1; animation-delay: 5s; opacity: 0 !important; height: 0px !important; transform: translateY(-200px); text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+      }
+      @keyframes unique {
+      0% {
+      top: 0; opacity: 1; height: 60px !important; transform: translateY(-0px);
+      }
+      10% {
+      top: -60px; opacity: 1;
+      }
+      12% {
+      top: -60px; opacity: 1;
+      }
+      20% {
+      top: -120px; opacity: 1;
+      }
+      30% {
+      top: -0px; opacity: 1;
+      }
+      100% {
+      top: 0; opacity: 1; height: 60px !important; transform: translateY(-0px);
+      }
+      }
+      .episodes {
+      animation: episodes 2s 0s steps(2, end); animation-iteration-count: 1; animation-delay: 7s; opacity: 0 !important; height: 0px !important; transform: translateY(-200px); text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+      }
+      @keyframes episodes {
+      0% {
+      top: 0; opacity: 1; height: 60px !important; transform: translateY(-0px);
+      }
+      10% {
+      top: -60px; opacity: 1; 
+      }
+      12% {
+      top: -60px; opacity: 1;
+      }
+      20% {
+      top: -120px; opacity: 1;
+      }
+      30% {
+      top: -0px; opacity: 1;
+      }
+      100% {
+      top: 0; opacity: 1; height: 60px !important; transform: translateY(-0px);
+      }
+      }
+      .pkd {
+      animation: pkd 3.2s 0s; animation-iteration-count: 1; animation-delay: 11.9s; opacity: 0 !important; height: 0px !important; transform: translateY(-600px); width: 100% !important; text-align: center;
+      }
+      @keyframes pkd {
+      0% {
+      opacity: 1; top: 150px; height: 120px !important; transform: translateY(-0px); 
+      }
+      1% {
+      opacity: 1; top: 150px; height: 120px !important; transform: scale(1); 
+      }
+      50% {
+      opacity: 1; top: 150px; height: 120px !important; transform: scale(1.03); 
+      }
+      51% {
+      opacity: 1; top: 150px; height: 120px !important; transform: skew(140deg); 
+      }
+      52% {
+      opacity: 1; top: 150px; height: 120px !important; transform: skew(0deg); 
+      }
+      53% {
+      opacity: 1; top: 150px; height: 120px !important; transform: skew(800deg); 
+      }
+      54% {
+      opacity: 1; top: 150px; height: 120px !important; transform: skew(0deg); 
+      }
+      98% {
+      opacity: 1; top: 150px; height: 120px !important; transform: scale(1.03); 
+      }
+      99% {
+      opacity: 1; top: 150px; height: 0px !important;
+      }
+      100% {
+      opacity: 0; top: 130px; height: 0px !important; transform: translateY(-0px);
+      }
+      }
+      .dreams {
+      animation: dreams 3.2s; animation-iteration-count: infinite; animation-delay: 27s; opacity: 0 !important; height: 0px !important; transform: translateY(-600px);
+      }
+      @keyframes dreams {
+      0% {
+      opacity: 1; top: 20px; left: 20px; height: 0px !important; transform: translateY(-0px); 
+      }
+      0.1% {
+      opacity: 1; top: 20px; left: 20px; height: 140px !important;
+      }
+      100% {
+      opacity: 1; top: 20px; left: 20px; height: 140px !important; transform: translateY(-0px);
+      }
+      }
+
+      .arrow {
+      animation: arrow 1.4s 0s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: 27s; opacity: 0 !important; height: 0px !important;
+      }
+      @keyframes arrow {
+      0% {
+      top: 320px; opacity: 0; height: 40px !important; transform: translateY(20px);
+      }
+      0.1% {
+      top: 320px; opacity: 1;  transform: translateY(7px);
+      }
+      50% {
+      top: 320px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      54% {
+      top: 320px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      100% {
+      top: 320px; opacity: 1; height: 40px !important; transform: translateY(7px);
+      }
+      }
+
+
+
+       .cta {
+      animation: cta 8s 0s; animation-iteration-count: infinite;
+      }
+      @keyframes cta {
+      0% { transform: skew(0deg); 
+      }
+      49% {
+      transform: skew(0deg); 
+      }
+      
+      50% {
+      transform: skew(50deg); 
+      }
+      50.5% {
+      transform: skew(0deg); 
+      }
+      51% {
+      transform: skew(50deg); 
+      }
+      51.5% {
+      transform: skew(0deg); 
+      }
+      100% { transform: skew(0deg); 
+      }
+      }
+
+
+
+      @media screen and (max-width: 540px) {
+
+       .pkd {
+      animation: pkd 3.2s 0s; animation-iteration-count: 1; animation-delay: 11.9s; opacity: 0 !important; height: 0px !important; transform: translateY(-600px); width: 100% !important; text-align: center;
+      }
+      @keyframes pkd {
+      0% {
+      opacity: 1; top: 80px; height: 120px !important; transform: translateY(-0px); 
+      }
+      1% {
+      opacity: 1; top: 80px; height: 120px !important; transform: scale(1); 
+      }
+      50% {
+      opacity: 1; top: 80px; height: 120px !important; transform: scale(1.03); 
+      }
+      51% {
+      opacity: 1; top: 80px; height: 120px !important; transform: skew(140deg); 
+      }
+      52% {
+      opacity: 1; top: 80px; height: 120px !important; transform: skew(0deg); 
+      }
+      53% {
+      opacity: 1; top: 80px; height: 120px !important; transform: skew(800deg); 
+      }
+      54% {
+      opacity: 1; top: 80px; height: 120px !important; transform: skew(0deg); 
+      }
+      98% {
+      opacity: 1; top: 80px; height: 120px !important; transform: scale(1.03); 
+      }
+      99% {
+      opacity: 1; top: 80px; height: 0px !important;
+      }
+      100% {
+      opacity: 0; top: 80px; height: 0px !important; transform: translateY(-0px);
+      }
+      } 
+
+
+      .dreams {
+      animation: dreamz 3.2s; animation-iteration-count: infinite; animation-delay: 27s; opacity: 0 !important; height: 0px !important; transform: translateY(-1500px);
+      }
+      @keyframes dreamz {
+      0% {
+      opacity: 0; top: 10px; left: 10px; height: 0px !important; transform: translateY(-1500px); 
+      }
+      0.1% {
+      opacity: 1; top: 10px; left: 10px; height: 140px !important; transform: translateY(-0px);
+      }
+      100% {
+      opacity: 1; top: 10px; left: 10px; height: 140px !important; transform: translateY(-0px);
+      }
+      }
+
+
+      .arrow {
+      animation: arrow 1.4s 0s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: 27s; opacity: 0 !important; height: 0px !important;
+      }
+      @keyframes arrow {
+      0% {
+      top: 230px; opacity: 0; height: 40px !important; transform: translateY(20px);
+      }
+      0.1% {
+      top: 230px; opacity: 1;  transform: translateY(7px);
+      }
+      50% {
+      top: 230px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      54% {
+      top: 230px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      100% {
+      top: 230px; opacity: 1; height: 40px !important; transform: translateY(7px);
+      }
+      }
+
+    }
+
+
+
+    @media screen and (max-width: 480px) {
+
+      .arrow {
+      animation: arrow 1.4s 0s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: 27s; opacity: 0 !important; height: 0px !important;
+      }
+      @keyframes arrow {
+      0% {
+      top: 190px; opacity: 0; height: 40px !important; transform: translateY(20px);
+      }
+      0.1% {
+      top: 190px; opacity: 1;  transform: translateY(7px);
+      }
+      50% {
+      top: 190px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      54% {
+      top: 190px; opacity: 1; height: 40px !important; transform: translateY(4px);
+      }
+      100% {
+      top: 190px; opacity: 1; height: 40px !important; transform: translateY(7px);
+      }
+      }
+
+}
+
+   
+
+
+
+
+
+
+@media screen and (max-width: 540px) {
+     
+     .background_ptone { min-height: 260px; height: auto !important; }
+     .background_ptwo { min-height: 260px; height: auto !important; }
+     .background_pthree { min-height: 260px; height: auto !important; }
+     .background_pfour { min-height: 260px; height: auto !important; }
+     .background_pfive { min-height: 260px; height: auto !important; }
+     .background_psix { min-height: 260px; height: auto !important; }
+     .background_psev { min-height: 260px; height: auto !important; }
+     .background_peight { min-height: 260px; height: auto !important; }
+     .background_pnine { min-height: 260px; height: auto !important; }
+     .background_pten { min-height: 260px; height: auto !important; }
+     .background_pelev { min-height: 260px; height: auto !important; }
+     .background_ptwe { min-height: 260px; height: auto !important; }
+     .background_pthir { min-height: 260px; height: auto !important; }
+     .background_pfourteen { min-height: 260px; height: auto !important; }
+
+ }
+
+
+
+}
+
+
+
+
+
+
+
+

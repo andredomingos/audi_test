@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+  <head>
+    <meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+    <meta https-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow">
+    <meta property="og:title" content="Two Newsletter">
+    <!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <title>SONIC THE HEDGEHOG</title>
+    <style type="text/css">
+      /* RESETS AND CLIENT SPECIFIC */
+      div, p, a, li, td {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; -webkit-font-smoothing:antialiased !important;}
+      body {min-width:100% !important; Margin:0 auto !important; padding:0; background-color:#dedede;}
+      #outlook a {padding:0;}
+      .ReadMsgBody {width:100%;}
+      .ExternalClass {width:100%;}
+      .ExternalClass * {line-height:110%;}
+      table { }
+      table td {padding:0; border-collapse:collapse;}
+      img {display:block; line-height:100%; border:0; outline:none; text-decoration:none; -ms-interpolation-mode:bicubic;}
+	  .pallette {display:none;}
+	  
+	  @media only screen {
+      a[x-apple-data-detectors] {color:inherit !important; text-decoration:none !important; font-size:inherit !important; font-family:inherit !important; font-weight:inherit !important; line-height:inherit !important;}
+      }
+	  
+	  @media only screen and (min-device-width:320px) and (max-device-width:1024px) {
+      a[href^='tel'], a[href^='sms'], a {color:inherit !important; cursor:default !important; text-decoration:none !important;}
+      }
+	  
+	  </style>
+      <style type="text/css">
+      @media screen and (max-width: 480px) {
+      *[class=hide]{
+      display:none !important;
+      }
+      .responsive_table {
+      width:100% !important;
+      max-width: 100% !important;
+      }
+      }
+      
+     </style>
+      <style type="text/css">
+    
+	  
+      /************* STYLING FOR THE WEBKIT ONLY GAME INCLUDING FALLBACKS *********/   
+      /* HIDE ON WEBKIT */   
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      .webkit-hide {display: none;
+      }
+      }	
+	  /* YAHOO TARGETTING */  	   
+      @media screen yahoo {
+      .yhoohide] {
+      display: none;
+      }
+      }
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+	  /* SAMSUNG TARGETTING */
+      #MessageWebViewDiv #game{
+      display: none !important;}
+      #secdiv #game{
+      display: none;}
+      
+	  * {
+      margin:0 ;padding:0; font-size:12px; line-height:1.2;
+      }
+      #webkit-only {
+      display: inline !important; max-height: none !important; width: 320px;
+      }
+      body{
+      height:400px; overflow:scroll;
+      }
+	  
+	  #game{
+      position:relative; width:320px; height:600px; overflow:hidden; margin:0px auto 0;
+      background-position:0px 0px; background-repeat:no-repeat;
+      }
+	  
+	   </style>
+      <style type="text/css">
+	  
+	  /************************** BACKGROUNDS AND SETTING **********************/
+	  
+	   /* BACKGROUND PATTERN */ 
+	   #map{
+       background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/backg.jpg");
+      position:absolute;
+      z-index:0;
+      top:0px;
+      left:0;
+      display:block;
+      width: 320px;
+      height: 500px;
+      -webkit-pointer-events: none;
+      pointer-events: none;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      }
+	 
+	  
+	   /* RUNNING TRACK */ 
+	  
+      .background_ptone{
+	background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/platform.png");
+	position: absolute;
+	z-index: 6px;
+	top: 103px;
+	width: 320px;
+	height: 500px;
+	overflow: hidden;
+	animation: play1 9s 0s steps(23) infinite;
+	  }
+	  
+      @-webkit-keyframes play1 {
+     from { background-position-y: 0px; background-position-x: 0px; }
+     33% { background-position-y:  0px; background-position-x: -7360px; }
+     33.0001% { background-position-y: -500px; background-position-x: 0px; }
+     66% { background-position-y: -500px; background-position-x: -7360px; }
+     66.0001% { background-position-y: -1000px; background-position-x: 0px; }
+     100% { background-position-y: -1000px; background-position-x: -7360px; }
+}    
+	  
+	  
+	  
+	  /************************** SONIC SONIC SONIC **********************/
+	  
+	
+	  /* SONIC FRAME */
+      .hedgehog {
+      position: absolute;
+      top:320px;
+      left:110px;
+      width:95px;
+      height:130px;
+	  overflow:hidden; 
+	  }
+	   
+	/* SONIC SPRITE */
+      .sonic {
+	  z-index:0;
+	  width:95px;
+	  position: absolute;
+      height:130px;
+      background-repeat:no-repeat !important;
+	  background-image:url("https://kristianrobinson.co.uk/sonic_part2/imgs/sonic_run5.png");
+      animation:sonic 1.4s steps(23) infinite forwards;
+	  }
+	  
+	  @keyframes sonic {
+      0% { background-position-x: 0%; }
+      100% { background-position-x: 100%;}
+	  }
+	  
+	  
+	   /************************** RINGS RINGS RINGS **********************/
+	   
+	   
+	   .ringz{
+      z-index:7;
+      position:absolute;
+	  top: 300px;
+	  left: 0px;
+	  
+      } 
+	
+	  .ringss:checked{
+      overflow:hidden;
+      -webkit-animation-name:none;
+      -webkit-pointer-events: none;
+      pointer-events: none;
+      opacity:0;
+	  display:none
+      }
+      
+	  .ringss{
+      z-index:7;
+      position:absolute;
+	  top: 0px;
+	  left: 0px;
+	  width:64px;
+      height:58px;
+      display:block;
+	  background-repeat:no-repeat !important;
+	  background-image:url("https://kristianrobinson.co.uk/sonic_part2/imgs/ring.png");
+      animation:ringspin 1.8s steps(9) infinite forwards;
+	  -webkit-appearance: button;
+      -moz-appearance: button;
+      background-repeat:no-repeat;
+       cursor:pointer;
+      opacity:0.8;
+      border:none;
+      outline:none;
+      }
+      .ringss:hover{
+      opacity:1; animation-duration: 0.2s;
+	  }
+	  
+	  @keyframes ringspin {
+      0% { background-position-x: 0%; }
+      100% { background-position-x: 100%;}
+      }
+	  
+	  .ringss#ring_1 {top: 24px; left:140px; transform:scale(0.7)}
+      .ringss#ring_2 {top: 30px; left:200px; transform:scale(0.65);}
+      .ringss#ring_3 {top: 50px; left:160px; transform:scale(0.7)}
+      .ringss#ring_4 {top: 60px; left:130px;  transform:scale(0.8)}
+      .ringss#ring_5 {top: 10px; left:220px; transform:scale(0.8)}
+      .ringss#ring_6 {top: 10px; left:170px; transform:scale(0.6)}
+      .ringss#ring_7 {top: 50px; left:70px; transform:scale(0.7)}
+      .ringss#ring_8 {top: 10px; left:100px; transform:scale(0.7)}
+      .ringss#ring_9 {top: 15px; left:100px; transform:scale(0.8)}
+      .ringss#ring_10{top: 0px; left:120px; transform:scale(2.1)}
+	  
+	  
+	  
+	  /************************** RING MOVES **********************/
+	  
+	  .ringmoveone{
+	   animation:ringmove1 2.5s;
+	   z-index:7;
+      position:absolute;
+	  top: 0px; left:0px;}
+	
+	  @keyframes ringmove1 {
+      0% { transform: scale(0.0); opacity:0}
+	  95% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmovetwo{
+	   animation:ringmove2 4.5s;
+	   z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove2 {
+      0% { transform: scale(0.0); opacity:0}
+	  95% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmovethree{
+	   animation:ringmove3 5.5s;
+	    z-index:7; position:absolute;}
+	
+	  @keyframes ringmove3 {
+      0% { transform: scale(0.0); opacity:0}
+	  89% { transform: scale(0.0); opacity:0.0; }
+	  90% { transform: scale(0.3); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 	 
+	  
+	  
+	  .ringmovefour{
+	   animation:ringmove4 6.5s;
+	    z-index:7; position:absolute;}
+	
+	  @keyframes ringmove4 {
+      0% { transform: scale(0.0); opacity:0}
+	  89% { transform: scale(0.0); opacity:0.0; }
+	  90% { transform: scale(0.3); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      }
+	  
+	  
+	  
+	  .ringmovefive{
+	   animation:ringmove5 7.5s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove5 {
+      0% { transform: scale(0.0); opacity:0}
+	  89% { transform: scale(0.0); opacity:0.0; }
+	  90% { transform: scale(0.3); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      }
+	  
+	  
+	  .ringmovesix{
+	   animation:ringmove6 8.5s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove6 {
+      0% { transform: scale(0.0); opacity:0}
+	  93% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmoveseven{
+	   animation:ringmove7 9.5s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove7 {
+      0% { transform: scale(0.0); opacity:0}
+	  95% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmoveeight{
+	   animation:ringmove8 10.5s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove8 {
+      0% { transform: scale(0.0); opacity:0}
+	  95% { transform: scale(0.3); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmovenine{
+	   animation:ringmove9 11.5s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove9 {
+      0% { transform: scale(0.0); opacity:0}
+	  94% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	  .ringmoveten{
+	   animation:ringmove10 15s; z-index:7;
+      position:absolute;}
+	
+	  @keyframes ringmove10 {
+      0% { transform: scale(0.0); opacity:0}
+	  95% { transform: scale(0.0); opacity:0.0; }
+	  100% { transform: scale(1.0); opacity:1.0;}
+      } 
+	  
+	  
+	
+	  /************************** FAKE TIMER **************************/
+	   
+      .timer{
+      position: absolute;
+	  z-index:6;
+      top:10px;
+      left:5px;
+      
+      width: 309px;
+      height: 50px;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      }
+     .progress{
+      position: absolute;
+	  z-index:6;
+      top:6px;
+      left:100px;
+      width:200px;
+      height: 38px;
+      background-position:0px 0px;
+      background-repeat:repeat-x;
+      -webkit-animation-name:progress;
+      -webkit-animation-timing-function:linear;
+      -webkit-animation-duration:18.5s;
+      -webkit-animation-delay:0.5s;
+      }
+      @-webkit-keyframes progress{
+      0% {width:200px;}
+      100% {width:0px;}
+      } 
+     
+	
+	  /************************** SCORE BOARDS **********************/
+	  
+      #score_board{
+      position: absolute;
+	  z-index:6;
+      top:85px;
+      left:80px;
+      width: 157px;
+      height: 105px;
+      z-index:6;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      }
+      #score_wrap{
+      position: absolute;
+	  top:20px;
+      left:25px;
+      width: 111px;
+      height: 63px;
+      overflow: hidden;
+      }
+      #score{
+      position: absolute;
+      top: -630px;
+      left:0;
+      width: 111px;
+      height: 693px;
+      }
+      .score{
+      position:relative;
+      display:block;
+      width: 111px;
+      height: 63px;
+      background-color:transparent;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      -webkit-transition:.1s all linear;
+      }
+      .score:checked{
+      position:absolute;
+      top:0px;
+      height:0px;
+      }
+      #score_fin{
+      position:relative;
+      display:block;
+      width: 111px;
+      height: 693px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      }
+	  
+	  /************************** CLICKED ON FX CLICKED ON FX  **********************/
+	  
+	  .ringss:checked + .effect{}
+      .effect {
+	  position:absolute;
+      z-index:15;
+      width: 50px;
+      height: 50px;
+	 -webkit-pointer-events: none;
+      pointer-events: none;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      opacity:0;
+      }
+     
+      #ring_1  + .effect {top:24px; left:140px;}
+      #ring_2  + .effect {top:30px; left:200px;}
+      #ring_3  + .effect {top: 50px; left:160px;}
+      #ring_4  + .effect {top: 60px; left:130px;}
+      #ring_5  + .effect{top: 10px; left:220px;}
+      #ring_6  + .effect{top: 10px; left:170px;}
+      #ring_7  + .effect{top: 50px; left:70px;}
+      #ring_8  + .effect{top: 10px; left:100px;}
+      #ring_9  + .effect {top: 15px; left:100px;}
+      #ring_10  + .effect{top: 35px; left:210px; transform:scale(2.0)}
+	  
+	  
+	  .ringss:checked + .effect{
+      -webkit-animation-duration:0.5s;
+      -webkit-animation-iteration-count:1;
+      -webkit-animation-direction: normal;
+      }
+
+      #ring_1:checked  + .effect,
+      #ring_2:checked  + .effect,
+      #ring_3:checked  + .effect,
+      #ring_4:checked  + .effect,
+      #ring_5:checked  + .effect,
+	  #ring_6:checked  + .effect,
+      #ring_7:checked  + .effect,
+      #ring_8:checked  + .effect,
+      #ring_9:checked  + .effect,
+      #ring_10:checked  + .effect{
+      -webkit-animation-name:effect1;
+      }
+	  
+	   @-webkit-keyframes effect1{
+      0% { -webkit-transform: translateX(0px) translateY(0px); opacity:0;}
+      30% { -webkit-transform: translateX(-10px) translateY(-10px); opacity:1;}
+      80% { -webkit-transform: translateX(-10px) translateY(-10px); opacity:1;}
+      100% { -webkit-transform: translateX(0px) translateY(0px); opacity:0;}
+      }
+
+	  
+	  
+	  
+	  /************************** GAME OVER AND COMPLETE **********************/
+	  
+	  .wincover{
+      position: absolute;
+	  z-index:100;
+      top:-300px;
+      left:0;
+      width:320px;
+      height:0px;
+      }
+      
+	  #ring_10:checked ~ *.wincover{
+      top:-300px;
+      height:600px;
+      -webkit-animation-name:win;
+      -webkit-animation-timing-function:linear;
+      -webkit-animation-duration:0.5s;
+      background-position:0px 0px;
+      background-repeat:no-repeat;
+      opacity:1;
+      }
+      @-webkit-keyframes win {
+      0% {top:-500px;opacity:0;}
+      97% {top:-500px;opacity:0;}
+      100% {top:0px;opacity:1;}
+      }
+	  
+	  
+	 .failedcover{
+      position: absolute;
+	  z-index:52;
+      top:-300px;
+      left:0;
+      width:320px;
+      height:600px;
+      -webkit-animation-name:failedcover;
+      -webkit-animation-timing-function:linear;
+      -webkit-animation-duration:19s;
+     background-position:0px 0px;
+      background-repeat:no-repeat;
+      opacity:1;
+      }
+      @-webkit-keyframes failedcover {
+      0% {top:-500px;opacity:0; height:0px;}
+      97% {top:-500px;opacity:0;}
+      100% {top:0px;opacity:1;}
+      }
+	  
+      
+	  
+	  
+	  
+	  
+	  </style>
+      <style type="text/css"> 
+	  
+	  
+	  /************************** OTHER IMAGES **********************/
+	  #score_board{
+      background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/scoreboard.png");
+      }
+      #score_fin{
+      background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/score.png");
+      }
+      .effect {
+      background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/sparkle.gif");
+      }
+	  .timer{
+      background-image:url("https://kristianrobinson.co.uk/sonic_part2/imgs/timer.png");
+      }
+      .progress{
+      background-image:url("https://kristianrobinson.co.uk/sonic_part2/imgs/progress.png");
+      }
+	  .wincover{
+      background-image:url("https://kristianrobinson.co.uk/sonic_part2/imgs/winner1.png");
+      }
+	  .failedcover{
+      background-image: url("https://kristianrobinson.co.uk/sonic_part2/imgs/timesup.png");}
+	  
+     }
+      </style>
+    
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css" media="all">
+      table {border-collapse:collapse;}
+    </style>
+    <![endif]-->
+  </head>
+  <body margintop="0" marginleft="0" marginright="0" style="min-width:100% !important; Margin:0 auto; padding:0; background-color: #F7F7F7;">
+  
+ 
+  
+  
+  
+    <!-- //CONTAINER TABLE// -->
+   
+                <center>
+                  <div style="max-width:320px; max-height:0; overflow:hidden; mso-hide:all; display:none;" id="webkit-only">
+                     <div align="center" valign="top" style="font-size:0; max-width:320px;">
+           
+                           <div style="max-width:320px;">
+                        <div align="center" style="display:inline-block; max-width:320px; min-width:320px; vertical-align:top; width:100%;" class="responsive_table">
+                           <!--[if mso]><!-->
+                                  
+                                  
+                                  <div id="game">
+                                 
+                                  <div id="map"></div>
+                                  
+                                  <div class="ringz">
+                                  
+                                   <div class="ringmoveone">
+                                  <input type="radio" name="ring_1"  id="ring_1"  class="ringss">
+                                    <div class="effect"></div>
+                                   </div>
+                                  
+                                  <div class="ringmovetwo">
+                                  <input type="radio" name="ring_2"  id="ring_2"  class="ringss">
+                                    <div class="effect"></div>
+                                  </div>
+                                  
+                                  <div class="ringmovethree">  
+                                   <input type="radio" name="ring_3"  id="ring_3"  class="ringss">
+                                    <div class="effect"></div>
+                                    </div>
+                                   
+                                    <div class="ringmovefour">
+                                   <input type="radio" name="ring_4"  id="ring_4"  class="ringss">
+                                    <div class="effect"></div>
+                                   </div>
+                                  
+                                   <div class="ringmovefive"> 
+                                   <input type="radio" name="ring_5"  id="ring_5"  class="ringss">
+                                     <div class="effect"></div>
+                                   </div>
+                                  
+                                   <div class="ringmovesix">  
+                                   <input type="radio" name="ring_6"  id="ring_6"  class="ringss">
+                                     <div class="effect"></div>
+                                   </div>
+                                  
+                                   <div class="ringmoveseven">  
+                                   <input type="radio" name="ring_7"  id="ring_7"  class="ringss">
+                                    <div class="effect"></div>
+                                    </div>
+                                  
+                                    <div class="ringmoveeight">
+                                   <input type="radio" name="ring_8"  id="ring_8"  class="ringss">
+                                    <div class="effect"></div>
+                                    </div>
+                                  
+                                    <div class="ringmovenine">
+                                   <input type="radio" name="ring_9"  id="ring_9"  class="ringss">
+                                     <div class="effect"></div>
+                                    </div>
+                                   
+                                    <div class="ringmoveten"> 
+                                   <input type="radio" name="ring_10"  id="ring_10"  class="ringss">
+                                     <div class="effect"></div>
+                                     <a class="failedcover" href="https://kristianrobinson.co.uk/sonic/sonic_webkit_experiment.html"></a>e
+                                    <a class="wincover" href=""></a>
+                                     </div>
+                                    
+                                    </div>
+                                    
+                                    <div id="score_board">
+                                      <div id="score_wrap">
+                                        <div id="score">
+                                        <input type="radio" name="ring_1"  id="score_1"  class="score" checked>
+                                         <input type="radio" name="ring_2"  id="score_2"  class="score" checked>
+                                         <input type="radio" name="ring_3"  id="score_3"  class="score" checked>
+                                         <input type="radio" name="ring_4"  id="score_4"  class="score" checked>
+                                         <input type="radio" name="ring_5"  id="score_5"  class="score" checked>
+                                         <input type="radio" name="ring_6"  id="score_6"  class="score" checked>
+                                         <input type="radio" name="ring_7"  id="score_7"  class="score" checked>
+                                         <input type="radio" name="ring_8"  id="score_8"  class="score" checked>
+                                         <input type="radio" name="ring_9"  id="score_9"  class="score" checked>
+                                         <input type="radio" name="ring_10"  id="score_10"  class="score" checked>
+                                          <div class="score" id="score_fin"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                              
+                                 
+                                  <div class="timer">
+                                      <div class="progress"></div>
+                                     </div>
+                                 
+                                     <div class="background_ptone">
+                                       <div class="hedgehog">
+                                         <div class="sonic"></div>
+                                       </div>
+                                     </div>
+                                        
+                                
+                          </div>
+                                 
+                                        
+                                        
+                                
+                       </div>
+                        </div>         
+                                 <!--<![endif]-->
+                            
+                    </div>
+                  </div>
+                      
+                </center>
+            
+       
+    <!-- //CONTAINER TABLE ENDS// --> 
+    
+    
+        <!-- //CONTAINER ENDS// --> 
+                <center style="width:100% !important; height:100% !important; table-layout:fixed !important; text-size-adjust:none !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+                <div style="max-width:600px; padding: 20px 20px;">
+                 <div style="font-family:Arial, sans-serif; font-size:11px; color:#000001; line-height:25px; text-align:center; "><p style="margin:0;"> <br /><b>PLEASE VIEW IN WEBKIT OR SAFARI</b><br />This was created as part of a Webkit Only experiment for email. It will not be sent or use for marketing purposes.</p></div><br />
+                  <div style="font-family:Arial, sans-serif; font-size:11px; color:#000001; line-height:25px; text-align:center;"><p style="margin:0;"><b><a href="http://blog.two-uk.com/2017/01/18/hedgehog_email/" target="_blank" style="color:#000001; text-decoration:underline !important;">Read the Blog</a></b>. </p></div>
+                 <br />
+                 <div style="font-family:Arial, sans-serif; font-size:11px; color:#000001; line-height:25px; text-align:center; "><p style="margin:0;">SEGA and Sonic The Hedgehog had no part in the creation of this. It entirely my own work, and created as part research and experimentation.</p></div>
+                 </div>
+                </center>
+    
+    
+     
+  </body>
+</html>
